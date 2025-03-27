@@ -450,7 +450,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 sourceLanguage.value = targetValue;
                 targetLanguage.value = sourceValue;
             } else {
-                showAlert('Não é possível trocar quando o idioma de origem é "Detectar automaticamente".', 'info');
+                showAlert('Não é possível trocar quando o idioma de origem é "Escolha o Idioma".', 'info');
             }
         }
     
